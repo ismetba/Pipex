@@ -6,7 +6,7 @@
 /*   By: ibayandu <ibayandu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/09 16:02:35 by ibayandu          #+#    #+#             */
-/*   Updated: 2025/03/09 16:30:10 by ibayandu         ###   ########.fr       */
+/*   Updated: 2025/03/16 14:57:52 by ibayandu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,6 @@ int	get_next_line(char **line)
 	return (bytes_read);
 }
 
-/* Function to open the files with the right flags */
 int	open_file(char *argv, int i)
 {
 	int	file;
