@@ -6,7 +6,7 @@
 /*   By: ibayandu <ibayandu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/09 15:54:56 by ibayandu          #+#    #+#             */
-/*   Updated: 2025/03/16 14:19:46 by ibayandu         ###   ########.fr       */
+/*   Updated: 2025/03/16 14:34:55 by ibayandu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ static int	has_heredoc(int *i, char **argv, int argc)
 {
 	int	fileout;
 
-	i = 3;
+	*i = 3;
 	fileout = open_file(argv[argc - 1], 0);
 	here_doc(argv[2], argc);
 	return (fileout);
